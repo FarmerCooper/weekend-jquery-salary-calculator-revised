@@ -8,14 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="jquery-3.6.0.min.js"></script>
     <script src="client.js"></script>
+    <link href="style.css" rel="stylesheet" /> 
     <title>Salary Calculator</title>
 </head>
 
 <body>
     <header>Salary Calculator</header>
 
-    <div>
-        <h1>Add Employee</h1>
+        <h2>Add Employee</h2>
+    <div class="info-inputs">
         <input type="text" placeholder="First Name">
         <input type="text" placeholder="Last Name">
         <input type="text" placeholder="ID">
@@ -23,8 +24,8 @@
         <input type="text" placeholder="Annual Salary">
     </div>
 
-    <div><button id="submitButton">Submit</button></div>
-
+    <div class="submit-btn"><button id="submitButton">Submit</button></div>
+    
     <div>
         <h2>Employees</h2>
         <table>
@@ -42,12 +43,12 @@
                 <td>4321</td>
                 <td>Army Soldier</td>
                 <td>$50,000</td>
-                <button>Delete</button>
+                <td class="column-delete"><button class="delete-btn">Delete</button></td>
             </tr>
         </table>
     </div>
-
-    <footer>Total Monthly:<span class="total-monthly"></span></footer>
+    
+    <footer class="footer">Total Monthly:<span class="total-monthly"></span></footer>
 </body>
 
 </html>

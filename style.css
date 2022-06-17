@@ -1,0 +1,51 @@
+table {
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 1em 1em 0;
+}
+
+td:not(.column-delete) {
+    border: 1.5px solid black;
+    text-align: right;
+    padding: 5px;
+    font-size: 20px;
+}
+
+th {
+    border: 1.5px solid black;
+    text-align: left;
+    padding: 5px;
+    font-size: 22px;
+}
+
+.column-delete {
+    width: 125px;
+    text-align: center;
+    border: 1.5px solid black;
+    padding: 5px;
+}
+
+.delete-btn {
+    width: 100px;
+}
+
+.submit-btn {
+    text-align: right;
+    margin: 1em 0 0 0;
+}
+
+header {
+    text-align: center;
+    font-size: xx-large;
+}
+
+footer {
+    text-align: right;
+    font-size: x-large;
+}
+
+
+div {
+    display: inline;
+}
