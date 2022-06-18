@@ -11,11 +11,11 @@ function addEmployeeDetails() {
     // add inputs to the table in formatted style
     $('#infoTable').append(`
     <tr>
-                <td class = "person">${insertName}</td>
-                <td class = "last-name>${insertLastInput}</td>
-                <td class = "id">${insertIdInput}</td>
-                <td class = "title">${insertTitleInput}</td>
-                <td class = "salary">${insertSalaryInput}</td>
+                <td>${insertName}</td>
+                <td>${insertLastInput}</td>
+                <td>${insertIdInput}</td>
+                <td>${insertTitleInput}</td>
+                <td>${insertSalaryInput}</td>
                 <td class="column-delete"><button class="delete-btn">Delete</button></td>
             </tr>
     `)
@@ -40,4 +40,3 @@ function readyWhenever () {
     // once document is ready add click listener for button function
     $('#submitButton').on('click', addEmployeeDetails);
 }
-
