@@ -38,6 +38,8 @@ th {
 header {
     text-align: center;
     font-size: xx-large;
+    background-color: grey;
+    color: white;
 }
 
 footer {
