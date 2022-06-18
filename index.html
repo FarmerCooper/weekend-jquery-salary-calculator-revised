@@ -17,18 +17,18 @@
 
         <h2>Add Employee</h2>
     <div class="info-inputs">
-        <input type="text" placeholder="First Name">
-        <input type="text" placeholder="Last Name">
-        <input type="text" placeholder="ID">
-        <input type="text" placeholder="Title">
-        <input type="text" placeholder="Annual Salary">
+        <input type="text" placeholder="First Name" id="nameInput">
+        <input type="text" placeholder="Last Name" id="lastInput">
+        <input type="text" placeholder="ID" id="idInput">
+        <input type="text" placeholder="Title" id="titleInput">
+        <input type="text" placeholder="Annual Salary" id="salaryInput">
     </div>
 
     <div class="submit-btn"><button id="submitButton">Submit</button></div>
     
     <div>
         <h2>Employees</h2>
-        <table>
+        <table id="infoTable">
             <tr>
                 <th>First Name</th>
                 <th>Last Name</th>
@@ -36,14 +36,6 @@
                 <th>Title</th>
                 <th>Annual Salary</th>
                 <th>Empty</th>
-            </tr>
-            <tr>
-                <td>Diego</td>
-                <td>Baeza</td>
-                <td>4321</td>
-                <td>Army Soldier</td>
-                <td>$50,000</td>
-                <td class="column-delete"><button class="delete-btn">Delete</button></td>
             </tr>
         </table>
     </div>
