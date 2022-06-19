@@ -51,3 +51,7 @@ footer {
 div {
     display: inline;
 }
+
+.red-background {
+    background-color: red;
+}
