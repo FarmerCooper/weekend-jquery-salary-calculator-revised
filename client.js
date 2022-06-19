@@ -18,8 +18,8 @@ function addEmployeeDetails() {
                 <td>${insertLastInput}</td>
                 <td>${insertIdInput}</td>
                 <td>${insertTitleInput}</td>
-                <td><span class= "person-salary">${insertSalaryInput}</span></td>
-                <td class="column-delete"><button class="delete-btn">Delete</button></td>
+                <td><span class= "person-salary"><span>$ </span>${insertSalaryInput}</span></td>
+                <td class="column-delete"><button id="delete-btn">Delete</button></td>
             </tr>
     `)
 
